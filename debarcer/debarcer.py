@@ -382,6 +382,7 @@ if __name__ == '__main__':
 	v_parser.add_argument('-cf', '--cons_file', help='Path to your cons file.', required=True)
 	v_parser.add_argument('-f', '--f_sizes', help='Comma-separated list of family sizes to make VCF files for.', required=True)
 	v_parser.add_argument('-c', '--config', help='Path to your config file.')
+	v_parser.add_argument('-id', '--run_id', help='Run id.')
 	v_parser.set_defaults(func=call_variants)
 
 	##Run scripts command - requires bed file, and generates scripts for umi grouping, collapse and call functions
