@@ -8,7 +8,7 @@ module load tools anaconda3/4.4.0
 python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py group -o /home/projects/ku_10025/apps/debarcer/tests/out -r chr1:4776044-4780817 -c /home/projects/ku_10025/apps/debarcer/config/tim_config.ini
 
 #Collapse
-#python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py collapse -o /home/projects/ku_10025/apps/debarcer/tests/out -r #chr1:4776044-4780817 -c /home/projects/ku_10025/apps/debarcer/config/tim_config.ini
+python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py collapse -o /home/projects/ku_10025/apps/debarcer/tests/out -r chr1:4776044-4780817 -c /home/projects/ku_10025/apps/debarcer/config/tim_config.ini
 
 
 #Call VCFs
