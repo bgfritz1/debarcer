@@ -224,7 +224,7 @@ def call_variants(args):
 
 	print(timestamp() + "Generating VCFs...")
 
-	get_vcf_output(cons_file=cons_file, region_start=region_start, region_end=region_end, output_path=output_path, config=config, id=id)
+	get_vcf_output(cons_file=cons_file, region_start=region_start, region_end=region_end, output_path=output_path, config=config)
 		
 	print(timestamp() + "VCFs generated. VCF files written to {}.".format(output_path))
 
