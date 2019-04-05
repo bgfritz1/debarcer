@@ -156,7 +156,8 @@ def raw_table_output(cons_data, ref_seq, contig, region_start, region_end, outpu
 
     with open("{}/{}:{}-{}.cons".format(output_path, contig, region_start, region_end), "w") as writer:
 
-        writer.write("CHROM\tPOS\tREF\tA\tC\tG\tT\tI\tD\tN\tRAWDP\tCONSDP\tFAM\tREF_FREQ\tMEAN_FAM\n") ##Header
+        writer.write("# {}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
+                            "contig","pos","ref",'A','C','G','T','I','D', 'N','Raw Depth','Consensus depth', 'Family size','ref_freq')) ##Header
         
         for base_pos in range(region_start, region_end):
 
