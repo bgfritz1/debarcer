@@ -7,7 +7,7 @@ import pysam
 import functools
 import src.umi_network_collapse as network
 import csv
-from utils.generate_plots import umi_plot
+#from utils.generate_plots import umi_plot
 import matplotlib.pyplot as plt
 import pandas as pd
 import fnmatch
