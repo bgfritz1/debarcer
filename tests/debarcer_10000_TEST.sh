@@ -12,7 +12,7 @@ python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py collapse -o /h
 
 
 #Call VCFs
-python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py call -o /home/projects/ku_10025/apps/debarcer/tests/out -r chr1:4776044-4780817 -f 1,2,5 -cf ./out/chr1:4776044-4780817.cons
+python /home/projects/ku_10025/apps/debarcer/debarcer/debarcer.py call -o /home/projects/ku_10025/apps/debarcer/tests/out -r chr1:4776044-4780817 -f 1,2,5 -cf ./out/chr1:4776044-4780817.cons -id "test_run"
 
 
 
